@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="U01ClienteTCPa181G0250.PlantillaBase"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:U01ClienteTCPa181G0250"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="White">
+    <Canvas>
+        <Path Data="M30 10, 240 10 
+              A20,20 0 0 1 260,30 
+              L260 240 
+              A20 20 0 0 1 240 260
+              L240 260 30 260
+              A20 20 0 0 1 10 240
+              L10 240 10 30
+              A20 20 0 0 1 30 10 Z" Fill="#221E1F"></Path>
+        <Path Data="M135 30 A10 10 0 0 0 135 240
+                    M135 30 A10 10 0 0 1 135 240 Z" Fill="#FFFFFF"></Path>
+        <Path Data="M135 40 A10 10 0 0 0 135 230
+                    M135 40 A10 10 0 0 1 135 230 Z" Fill="#5E7E4D"></Path>
+
+        <Path Data="M95 100 A10 10 0 0 0 95 160
+                    M95 100 A10 10 0 0 1 95 160 Z" Fill="#FFFFFF"/>
+
+        <Path Data="M175 100 A10 10 0 0 0 175 160
+                    M175 100 A10 10 0 0 1 175 160 Z" Fill="#FFFFFF"/>
+    </Canvas>
+</UserControl>
